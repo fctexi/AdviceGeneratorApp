@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color);
+    font-family: 'Kumbh Sans';
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--advice-card-color);
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.container .title{
+    font-size: 10px;
+    color: var(--advice-dice-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 20px 0px;
+    font-weight: 600;
+}
+
+.container .advice-text{
+    display: flex;
+    width: 250px;
+    height: 100px;
+    padding-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 800;
+}
+
+.container .divider{
+    width: 250px;
+    padding: 0px 0px 35px 0px;
+}
+
+.container .btn-dice{
+    bottom: -20px;
+    position: absolute;
+    padding: 13px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice-color);
+}
+
+.container .btn-dice:hover{
+    background-color: rgb(255, 255, 255);
+    transition: ease-in-out;
+}
+
+.container .img-dice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+}
+
+@media(max-width: 375px){
+    .container{
+        width: 280px;
+    }
+}
