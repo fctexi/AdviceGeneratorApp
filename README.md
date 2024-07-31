@@ -27,4 +27,4 @@ I utilized HTML and CSS to recreate the Advice generator app, breaking down the 
 
 ### Link
 
-- Solution URL: [fctexi.github.io/Projeto-Advice-generator-app](https://fctexi.github.io/Projeto-Advice-generator-app/)
+- Solution URL: [fctexi.github.io/Projeto-Advice-generator-app](https://fctexi.github.io/AdviceGeneratorApp/)
